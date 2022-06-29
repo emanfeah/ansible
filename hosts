@@ -2,5 +2,5 @@
 lb ansible_host=ec2-35-175-140-141.compute-1.amazonaws.com ansible_connection=local
 
 [webservers]
-web1 ansible_host=ec2-44-204-162-106.compute-1.amazonaws.com
+web1 ansible_host=ec2-54-224-231-145.compute-1.amazonaws.com
 web2 ansible_host=ec2-44-202-162-69.compute-1.amazonaws.com
