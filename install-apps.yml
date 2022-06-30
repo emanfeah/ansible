@@ -1,8 +1,7 @@
 - name: Install loadbalancer and web servers
   hosts: all
   tasks:
-
-    - name: Install all apps server node1 test
+    - name: Install all apps server node1 and node2
       apt:
         name: "{{ apps }}"
         state: present
